@@ -180,3 +180,44 @@ body {
     margin-bottom: 2em;
     padding: 0 6em;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto;
+        display: block;
+        background-image: none;
+    }
+
+    .principal {
+        margin-bottom: 6em;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 6em 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+    .lista__link {
+        margin: 0.5em 0;
+    }
+}
